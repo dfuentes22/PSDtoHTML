@@ -1,0 +1,273 @@
+/*General*/
+
+.container {
+    max-width: 940px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+/*Nav*/
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    min-height: 80px;
+    box-shadow: 2px 2px 2px #333333;
+}
+
+nav .container {
+    padding-top: 15px;
+}
+
+.navbar-inverse {
+    background-color: #f7fdfe;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #82868f;
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #0ebfdd;
+    background: #0ebfdd;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background: tomato;
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background: tomato;
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #82868f;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #111;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: tomato;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #dddddd;
+}
+
+.navbar-inverse .navbar-nav>li>a.sign-in-btn {
+    background: #0ebfdd;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 15px 35px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+    .navbar-inverse {
+        border: none;
+    }
+
+    .navbar-header {
+        padding-bottom: 15px;
+    }
+
+
+
+    .navbar-nav {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a.sign-in-btn {
+        background: #0ebfdd;
+        border-radius: 0px;
+        color: #ffffff;
+        padding: 15px 35px;
+        margin-left: 0px;
+    }
+}
+
+/*Hero*/
+
+#hero {
+    background: linear-gradient(rgba(69, 73, 77, 0.75), rgba(69, 73, 77, 0.75)), url(../img/img01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+
+#hero h2 {
+    padding-top: 400px;
+    padding-bottom: 25px;
+}
+
+.fa.fa-star {
+    font-size: 11px;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+.hero-p {
+    font-size: 20px;
+    margin: 0 0 88px;
+}
+
+@media only screen and (max-width: 769px) {
+    #hero h2 {
+        padding-top: 200px;
+        padding-bottom: 25px;
+    }
+}
+
+/*About*/
+
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    color: #0ebfdd;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.about-p {
+    color: #82868f;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+/*Team*/
+
+#team {
+    background: #0ebfdd;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#team .row {
+    margin-bottom: 100px;
+}
+
+#team h2 {
+    margin-top: 55px;
+    margin-bottom: 95px;
+}
+
+.member-img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h3.team-name {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+p.team-title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+a.team-btn {
+    color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+a.team-btn:hover {
+    background: #ffffff;
+    color: #0ebfdd;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 767px) {
+    #team h2 {
+        margin-bottom: 70px;
+    }
+
+    p.team-title {
+        padding-bottom: 35px;
+    }
+
+    #team .row {
+        margin-bottom: 60px;
+    }
+}
+
+/*Map*/
+
+#map {
+  height: 500px;
+}
+
+/*Footer*/
+
+footer {
+    background: #45494d;
+    color: #d7dee4;
+    padding-top: 30px;
+}
+
+p.f-nav-item,p.f-social-item,.cr {
+    display: inline-block;
+}
+
+.footer-nav {
+    float: left;
+}
+
+p.f-nav-item {
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.footer-social {
+    float: right;
+    text-align: right;
+}
+
+p.f-social-item {
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.fa {
+    color: #ffffff;
+}
+
+hr.f-divide {
+    clear: both;
+    width: 99%;
+    background: #5a5e62;
+    height: 1px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.copyright {
+    margin-top: 12px;
+    float: right;
+}
+
+p.cr {
+    font-size: 12px;
+}
+
+
+
+
